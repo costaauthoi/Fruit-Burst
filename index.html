@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar bg-red-400 text-primary-content rounded-3xl mt-3 h-12">
+            <div class="navbar-start hidden lg:flex ">
+                <ul tabindex="0" class="menu menu-horizontal text-sm p-1">
+                    <li><a>Home</a></li>
+                    <li>
+                    <a>About us</a>
+                    </li>
+                    <li><a>Shop</a></li>
+                </ul>
+                </div>
+                <a class="btn btn-ghost normal-case text-xm"><img  src="images/logo.png"  alt=" Fruit burst">Fruit Burst</a>
+
+            <div class="navbar-end">
+                <input type="text" placeholder="Search here" class="bg-white input-bordered input-md w-auto max-w-xs rounded-2xl"/>
+            </div>
+        </div>
+        </header>
+            <div class="hero min-h-screen mt-2.5" style="background-image: url(images/banner2.png);" >
+                <div class="hero-overlay bg-opacity-40"></div>
+                <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                    <h2 class="mb-5 text-5xl font-bold text-white">Exotic tastes at your doorstep</h2>
+                    <p class="mb-5 text-white">We supply highly quality organic products</p>
+                    <button class="btn bg-red-400 text-white border-0">Shop Now</button>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-3/4">
+                        <a href="#slide4" class="btn btn-circle">❮</a> 
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="flex w-full mt-5 ">
+                <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-left bg-white">
+                    <p class=" text-2xl fonts-lato m-0">Deal of the day</p>
+                    <p class="text-xs">Contrary to popular belief, is not simply random text.It has roots in a piece of classical Latin literature from 45 BC</p>
+                </div>
+
+                <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center bg-white">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                        <span class="countdown font-mono text-3xl">
+                            <span style="--value:15;"></span>
+                        </span>
+                        days
+                        </div> 
+                        <div class="flex flex-col">
+                        <span class="countdown font-mono text-2xl">
+                            <span style="--value:10;"></span>
+                        </span>
+                        hours
+                        </div> 
+                        <div class="flex flex-col">
+                        <span class="countdown font-mono text-xl">
+                            <span style="--value:24;"></span>
+                        </span>
+                        min
+                        </div> 
+                        <div class="flex flex-col">
+                        <span class="countdown font-mono text-xl">
+                            <span style="--value:36;"></span>
+                        </span>
+                        sec
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="  mt-5 flex justify-around">
+                <div>
+                <img src="images/fruit1.png" alt="Pizza" class="align-itetm-center" />
+                <p class="text-sm ">12.90$ - 18.85$</p>
+                <p class=" text-center mr-5">Grapes</p>
+                <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                </div> 
+                <div>
+                <img src="images/fruit2.png" alt="Pizza" />
+                <p class="text-center">12.90$ - 18.85$</p>
+                <p class="text-center mr-5">Oranges</p>
+                <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                </div> 
+                <div>
+                <img src="images/fruit3.png" alt="Pizza" p-2/>
+                <p class="text-sm">12.90$ - 18.85$</p>
+                <p class="text-center mr-5">Mango</p>
+                <div class="rating mr-2">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                </div> 
+                <div>
+                <img src="images/fruit4.png" alt="Pizza" />
+                <p class="text-sm">12.90$ - 18.85$</p>
+                <p class="text-center mr-5">Strawberry</p>
+                <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                </div> 
+            </div>
+            <div class="flex justify-center m-5">
+            <button class="btn bg-red-400 text-white border-0 ">Shop Now</button>
+            </div>
+
+            <div class="hero min-h-screen mt-5" style="background-image: url(images/banner1.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                    <h1 class="mb-10 text-2xl font-bold">Meet the team section</h1>
+                    <p class="mb-20">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>
+                    </div>
+
+                    <div class="flex justify-between gap-10">
+                                                
+                        <div class="avatar mt-20">
+                            <div class="w-20 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mt-20">
+                            <img src="images/member1.png" />
+                            <h1>Alway Hussein</h1>
+                            </div>
+                        </div> 
+                        <div class="avatar mt-20">
+                            <div class="w-20 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mt-20">
+                            <img src="images/member2.png" />
+                            </div>
+                        </div>
+                        <div class="avatar mt-20">
+                            <div class="w-20 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mt-20">
+                            <img src="images/member3.png" />
+                            </div>
+                        </div>
+                        <div class="avatar mt-20">
+                            <div class="w-20 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 mt-20">
+                            <img src="images/member4.png" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3 mb-5">
+                    <h4 class="font-bold text-center text-3xl font-Lato">Why choose use?</h4>
+                    <p class="text-center text-xs">
+                        Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
+                <div class="grid gap-0 grid-cols-3">
+                
+                    <div>
+                        <header class="font-bold ">Dedicated Team</header>
+                        <p class="text-xs mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p> 
+                        <header class="font-bold">Fresh is Best</header>
+                        <p class="text-xs mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <header class="font-bold ">Gift Certificates</header>
+                        <p class="text-xs mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    </div>   
+                    
+                    <div>
+                        <img src="images/whychoose1.png">
+                    </div>
+                    
+                    <div>
+                        <header class="font-bold ">Dedicated Team</header>
+                        <p class="text-xs mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p> 
+                        <header class="font-bold">Fresh is Best</header>
+                        <p class="text-xs mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                        <header class="font-bold ">Gift Certificates</header>
+                        <p class="text-xs mt-2">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    </div>   
+                    
+                </div> 
+
+        </main>
+
+        <footer class="footer footer-center p-10 bg-black text-base-content mt-5">
+            <aside class="menu menu-horizontal ">
+                <a class="link link-hover"><img  src="images/logo.png"  alt=" Fruit burst"></a>
+                <a class="link link-hover text-xl text-white">Fruit Brust</a>
+            </aside> 
+            <nav class="grid grid-flow-col gap-4">
+                <a class="link link-hover"> Home</a> 
+                <a class="link link-hover">About Us</a> 
+                <a class="link link-hover">Shop</a> 
+                <a class="link link-hover">Support</a>
+                <a class="link link-hover">My Account</a>
+            </nav> 
+            <nav>
+            <div class="grid grid-flow-col gap-4">
+            <a> <svg xmlns="http://www.w3.org/2000/svg" width="58" height="40" viewBox="0 0 58 40" fill="none">
+                    <path d="M55.9526 6.25899C55.294 3.81162 53.3644 1.88249 50.9175 1.22347C46.4468 0 28.5643 0 28.5643 0C28.5643 0 10.6821 0 6.21148 1.17683C3.81162 1.83542 1.83498 3.81206 1.17639 6.25899C0 10.7292 0 20 0 20C0 20 0 29.3174 1.17639 33.741C1.83542 36.1879 3.76455 38.1175 6.21192 38.7765C10.7292 40 28.5647 40 28.5647 40C28.5647 40 46.4468 40 50.9175 38.8232C53.3649 38.1646 55.294 36.235 55.953 33.7881C57.1294 29.3174 57.1294 20.0471 57.1294 20.0471C57.1294 20.0471 57.1765 10.7292 55.9526 6.25899Z" fill="white"/>
+                    <path d="M22.8706 28.5648L37.7409 20.0001L22.8706 11.4354V28.5648Z" fill="#FF0000"/>
+                </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <g clip-path="url(#clip0_13_2378)">
+                    <path d="M40 20C40 29.9828 32.6859 38.257 23.125 39.757V25.7813H27.7852L28.6719 20H23.125V16.2484C23.125 14.6664 23.9 13.125 26.3844 13.125H28.9062V8.20313C28.9062 8.20313 26.6172 7.8125 24.4289 7.8125C19.8609 7.8125 16.875 10.5813 16.875 15.5938V20H11.7969V25.7813H16.875V39.757C7.31406 38.257 0 29.9828 0 20C0 8.95469 8.95469 0 20 0C31.0453 0 40 8.95469 40 20Z" fill="white"/>
+                    <path d="M27.7852 25.7812L28.6719 20H23.125V16.2484C23.125 14.6667 23.8998 13.125 26.3843 13.125H28.9062V8.20312C28.9062 8.20312 26.6175 7.8125 24.4293 7.8125C19.8609 7.8125 16.875 10.5813 16.875 15.5938V20H11.7969V25.7812H16.875V39.757C17.8933 39.9167 18.9369 40 20 40C21.0631 40 22.1067 39.9167 23.125 39.757V25.7812H27.7852Z" fill="#1877F2"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_13_2378">
+                        <rect width="40" height="40" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg></a> 
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                    <g clip-path="url(#clip0_13_2375)">
+                    <path d="M40 7.5975C38.5125 8.25 36.9275 8.6825 35.275 8.8925C36.975 7.8775 38.2725 6.2825 38.8825 4.36C37.2975 5.305 35.5475 5.9725 33.6825 6.345C32.1775 4.7425 30.0325 3.75 27.6925 3.75C23.1525 3.75 19.4975 7.435 19.4975 11.9525C19.4975 12.6025 19.5525 13.2275 19.6875 13.8225C12.87 13.49 6.8375 10.2225 2.785 5.245C2.0775 6.4725 1.6625 7.8775 1.6625 9.39C1.6625 12.23 3.125 14.7475 5.305 16.205C3.9875 16.18 2.695 15.7975 1.6 15.195C1.6 15.22 1.6 15.2525 1.6 15.285C1.6 19.27 4.4425 22.58 8.17 23.3425C7.5025 23.525 6.775 23.6125 6.02 23.6125C5.495 23.6125 4.965 23.5825 4.4675 23.4725C5.53 26.72 8.545 29.1075 12.13 29.185C9.34 31.3675 5.7975 32.6825 1.9625 32.6825C1.29 32.6825 0.645 32.6525 0 32.57C3.6325 34.9125 7.9375 36.25 12.58 36.25C27.67 36.25 35.92 23.75 35.92 12.915C35.92 12.5525 35.9075 12.2025 35.89 11.855C37.5175 10.7 38.885 9.2575 40 7.5975Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_13_2375">
+                        <rect width="40" height="40" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg></a> 
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                    <path d="M36.1217 36V35.9988H36.1297V24.2628C36.1297 18.5216 34.8937 14.0988 28.1817 14.0988C24.9549 14.0988 22.7897 15.8696 21.9057 17.548H21.8125V14.6348H15.4485V35.9988H22.0753V25.42C22.0753 22.6348 22.6033 19.9412 26.0525 19.9412C29.4513 19.9412 29.5017 23.12 29.5017 25.5984V36H36.1217Z" fill="white"/>
+                    <path d="M4.65771 14.636H11.2925V36H4.65771V14.636Z" fill="white"/>
+                    <path d="M7.97244 4C5.85084 4 4.12964 5.7212 4.12964 7.8428C4.12964 9.9644 5.85084 11.7216 7.97244 11.7216C10.094 11.7216 11.8152 9.9644 11.8152 7.8428C11.8136 5.7212 10.0924 4 7.97244 4Z" fill="white"/>
+                </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                    <g clip-path="url(#clip0_13_2392)">
+                    <path d="M40.0906 11.7601C39.9968 9.63476 39.6532 8.17359 39.1608 6.90748C38.6529 5.56353 37.8715 4.36029 36.8477 3.36003C35.8475 2.34421 34.6363 1.55487 33.3079 1.05489C32.0345 0.562549 30.5809 0.218854 28.4556 0.125146C26.3144 0.0235031 25.6346 0 20.2039 0C14.7731 0 14.0934 0.0235031 11.9601 0.11721C9.83471 0.210918 8.37354 0.554918 7.10773 1.04696C5.76348 1.55487 4.56024 2.33627 3.55998 3.36003C2.54416 4.36029 1.75513 5.57146 1.25484 6.89985C0.7625 8.17359 0.418805 9.62682 0.325098 11.7522C0.223454 13.8934 0.199951 14.5732 0.199951 20.0039C0.199951 25.4347 0.223454 26.1144 0.317162 28.2477C0.410869 30.3731 0.754869 31.8342 1.24721 33.1003C1.75513 34.4443 2.54416 35.6475 3.55998 36.6478C4.56024 37.6636 5.77141 38.4529 7.0998 38.9529C8.37354 39.4453 9.82677 39.789 11.9524 39.8827C14.0854 39.9767 14.7655 39.9999 20.1962 39.9999C25.627 39.9999 26.3067 39.9767 28.44 39.8827C30.5654 39.789 32.0265 39.4453 33.2924 38.9529C35.9806 37.9136 38.1059 35.7882 39.1452 33.1003C39.6373 31.8266 39.9813 30.3731 40.075 28.2477C40.1687 26.1144 40.1922 25.4347 40.1922 20.0039C40.1922 14.5732 40.1843 13.8934 40.0906 11.7601ZM36.4885 28.0914C36.4024 30.0449 36.0743 31.0998 35.8008 31.8031C35.1287 33.5457 33.7456 34.9287 32.003 35.6008C31.2998 35.8743 30.2373 36.2024 28.2914 36.2882C26.1816 36.3822 25.5488 36.4054 20.2118 36.4054C14.8748 36.4054 14.2341 36.3822 12.1319 36.2882C10.1784 36.2024 9.12351 35.8743 8.42025 35.6008C7.55307 35.2803 6.76373 34.7724 6.12304 34.1082C5.45885 33.4596 4.95094 32.6782 4.63044 31.811C4.35695 31.1078 4.02882 30.0449 3.94305 28.0994C3.84904 25.9896 3.82584 25.3565 3.82584 20.0195C3.82584 14.6824 3.84904 14.0417 3.94305 11.9399C4.02882 9.98639 4.35695 8.93149 4.63044 8.22823C4.95094 7.36075 5.45885 6.57172 6.13098 5.93072C6.7793 5.26653 7.5607 4.75862 8.42818 4.43843C9.13144 4.16494 10.1943 3.83681 12.1398 3.75073C14.2496 3.65703 14.8827 3.63352 20.2194 3.63352C25.5644 3.63352 26.1972 3.65703 28.2993 3.75073C30.2528 3.83681 31.3077 4.16494 32.011 4.43843C32.8782 4.75862 33.6675 5.26653 34.3082 5.93072C34.9724 6.57935 35.4803 7.36075 35.8008 8.22823C36.0743 8.93149 36.4024 9.99402 36.4885 11.9399C36.5822 14.0497 36.6057 14.6824 36.6057 20.0195C36.6057 25.3565 36.5822 25.9816 36.4885 28.0914Z" fill="white"/>
+                    <path d="M20.2039 9.72845C14.5311 9.72845 9.92847 14.3308 9.92847 20.0039C9.92847 25.677 14.5311 30.2793 20.2039 30.2793C25.877 30.2793 30.4794 25.677 30.4794 20.0039C30.4794 14.3308 25.877 9.72845 20.2039 9.72845ZM20.2039 26.6693C16.5237 26.6693 13.5385 23.6844 13.5385 20.0039C13.5385 16.3234 16.5237 13.3385 20.2039 13.3385C23.8844 13.3385 26.8693 16.3234 26.8693 20.0039C26.8693 23.6844 23.8844 26.6693 20.2039 26.6693Z" fill="white"/>
+                    <path d="M33.2846 9.32218C33.2846 10.6469 32.2104 11.721 30.8854 11.721C29.5607 11.721 28.4866 10.6469 28.4866 9.32218C28.4866 7.99716 29.5607 6.92334 30.8854 6.92334C32.2104 6.92334 33.2846 7.99716 33.2846 9.32218Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_13_2392">
+                        <rect width="40" height="40" fill="white" transform="translate(0.129639)"/>
+                    </clipPath>
+                    </defs>
+                </svg></a>
+                <a><svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                    <g clip-path="url(#clip0_13_2397)">
+                    <path d="M27.6278 0C25.4953 0.147499 23.0028 1.51249 21.5503 3.28998C20.2253 4.90247 19.1354 7.29746 19.5603 9.62494C21.8903 9.69744 24.2978 8.29995 25.6928 6.49246C26.9978 4.80997 27.9853 2.42999 27.6278 0Z" fill="white"/>
+                    <path d="M36.0553 13.4199C34.0078 10.8524 31.1303 9.36243 28.4128 9.36243C24.8253 9.36243 23.3078 11.0799 20.8153 11.0799C18.2454 11.0799 16.2929 9.36743 13.1904 9.36743C10.1429 9.36743 6.89793 11.2299 4.84044 14.4149C1.94796 18.8999 2.44295 27.3323 7.13043 34.5148C8.80792 37.0848 11.0479 39.9747 13.9779 39.9997C16.5854 40.0247 17.3204 38.3273 20.8528 38.3098C24.3853 38.2898 25.0553 40.0222 27.6578 39.9947C30.5903 39.9722 32.9528 36.7698 34.6303 34.1998C35.8328 32.3573 36.2803 31.4298 37.2127 29.3498C30.4303 26.7673 29.3428 17.1224 36.0553 13.4199Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_13_2397">
+                        <rect width="40" height="40" fill="white" transform="translate(0.129639)"/>
+                    </clipPath>
+                    </defs>
+                </svg></a>
+            </div>
+            </nav>
+        </footer>
+</body>
+</html>
